@@ -10,5 +10,5 @@ read appName;
 git clone https://github.com/axedre/phanes.git $appName
 cd $appName
 grep -Rl $default . | grep -v ".git" | grep -v "angular.js" | grep -v $0 | xargs sed -i "s/$default/$appName/g";
-rm -rf .git .gitignore
+rm -rf .git .gitignore package.json README.md
 npm install
