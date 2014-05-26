@@ -1,6 +1,6 @@
 {
   "name": "npm-phanes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "phanes generator",
   "bin": {
     "phanes": "main.js"
